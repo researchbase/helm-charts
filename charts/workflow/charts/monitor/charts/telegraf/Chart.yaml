@@ -1,6 +1,8 @@
+apiVersion: v2
 description: Monitoring for Hephy Workflow.
 home: https://github.com/teamhephy/monitor/tree/master/telegraf
 maintainers:
-- email: team@teamhephy.com
+- name: Adam Meehan
+  email: info@researchpath.com.au
 name: telegraf
 version: v2.11.2

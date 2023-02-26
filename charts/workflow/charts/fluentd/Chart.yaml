@@ -1,6 +1,8 @@
+apiVersion: v2
 description: Log shipping mechanism for Hephy Workflow.
 home: https://github.com/teamhephy/fluentd
 maintainers:
-- email: team@teamhephy.com
+- name: Adam Meehan
+  email: info@researchpath.com.au
 name: fluentd
 version: v2.15.1

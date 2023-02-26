@@ -1,6 +1,8 @@
+apiVersion: v2
 description: A kubernetes based docker image for running nsq daemon.
 home: https://github.com/teamhephy/nsqd
 maintainers:
-- email: team@teamhephy.com
+- name: Adam Meehan
+  email: info@researchpath.com.au
 name: nsqd
 version: v2.5.1

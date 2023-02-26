@@ -1,6 +1,8 @@
+apiVersion: v2
 description: Buildpack application runner for Hephy Workflow.
 home: https://github.com/teamhephy/slugrunner
 maintainers:
-- email: team@teamhephy.com
+- name: Adam Meehan
+  email: info@researchpath.com.au
 name: slugrunner
 version: v2.7.0
