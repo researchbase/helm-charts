@@ -5,4 +5,56 @@ maintainers:
 - name: Adam Meehan
   email: info@researchpath.com.au
 name: workflow
-version: v2.23.0
+version: v2.23.1
+dependencies:
+  - name: builder
+    version: "v2.13.7"
+    repository: file://./charts/builder
+  - name: slugbuilder
+    version: "v2.8.0"
+    repository: file://./charts/slugbuilder
+  - name: dockerbuilder
+    version: "v2.8.3"
+    repository: file://./charts/dockerbuilder
+  - name: controller
+    version: "v2.22.0"
+    repository: file://./charts/controller
+  - name: slugrunner
+    version: "v2.7.0"
+    repository: file://./charts/slugrunner
+  - name: database
+    version: "v2.7.6"
+    repository: file://./charts/database
+  - name: fluentd
+    version: "v2.15.1"
+    repository: file://./charts/fluentd
+  - name: redis
+    version: "v2.4.2"
+    repository: file://./charts/redis
+  - name: logger
+    version: "v2.5.1"
+    repository: file://./charts/logger
+  - name: minio
+    version: "v2.4.5"
+    repository: file://./charts/minio
+  - name: monitor
+    version: "v2.11.2"
+    repository: file://./charts/monitor
+  - name: nsqd
+    version: "v2.5.1"
+    repository: file://./charts/nsqd
+  - name: registry
+    version: "v2.6.1"
+    repository: file://./charts/registry
+  - name: registry-proxy
+    version: "v1.5.1"
+    repository: file://./charts/registry-proxy
+  - name: registry-token-refresher
+    version: "v1.2.2"
+    repository: file://./charts/registry-token-refresher
+  - name: router
+    version: "v2.19.0"
+    repository: file://./charts/router
+  - name: workflow-manager
+    version: "v2.6.2"
+    repository: file://./charts/workflow-manager
