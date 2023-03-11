@@ -6,6 +6,8 @@ Set apiVersion based on .Capabilities.APIVersions
 apps/v1
 {{- else if .Capabilities.APIVersions.Has "extensions/v1beta1" -}}
 extensions/v1beta1
+{{- else if .Capabilities.APIVersions.Has "networking.k8s.io/v1" -}}
+networking.k8s.io/v1
 {{- else -}}
 apps/v1
 {{- end -}}
