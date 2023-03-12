@@ -5,39 +5,39 @@ maintainers:
 - name: Adam Meehan
   email: info@researchpath.com.au
 name: workflow
-version: v2.23.0
+version: v2.23.1
 dependencies:
   - name: builder
-    version: "v2.13.7"
+    version: "v2.13.8"
   - name: slugbuilder
-    version: "v2.8.0"
+    version: "v2.8.1"
   - name: dockerbuilder
-    version: "v2.8.3"
+    version: "v2.8.4"
   - name: controller
-    version: "v2.22.0"
+    version: "v2.22.1"
   - name: slugrunner
-    version: "v2.7.0"
+    version: "v2.7.1"
   - name: database
-    version: "v2.7.6"
+    version: "v2.7.7"
   - name: fluentd
-    version: "v2.15.1"
+    version: "v2.15.2"
   - name: redis
-    version: "v2.4.2"
+    version: "v2.4.3"
   - name: logger
-    version: "v2.5.1"
+    version: "v2.5.2"
   - name: minio
-    version: "v2.4.5"
+    version: "v2.4.6"
   - name: monitor
-    version: "v2.11.2"
+    version: "v2.11.3"
   - name: nsqd
-    version: "v2.5.1"
+    version: "v2.5.2"
   - name: registry
-    version: "v2.6.1"
-  - name: registry-proxy
-    version: "v1.5.1"
-  - name: registry-token-refresher
-    version: "v1.2.2"
-  - name: router
-    version: "v2.19.0"
-  - name: workflow-manager
     version: "v2.6.2"
+  - name: registry-proxy
+    version: "v1.5.2"
+  - name: registry-token-refresher
+    version: "v1.2.3"
+  - name: router
+    version: "v2.19.1"
+  - name: workflow-manager
+    version: "v2.6.3"

@@ -5,4 +5,4 @@ maintainers:
 - name: Adam Meehan
   email: info@researchpath.com.au
 name: redis
-version: v2.4.2
+version: v2.4.3
