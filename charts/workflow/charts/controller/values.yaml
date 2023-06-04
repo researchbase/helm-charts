@@ -1,6 +1,6 @@
-org: "hephy"
+org: "kingdonb"
 pull_policy: "IfNotPresent"
-docker_tag: v2.22.0
+docker_tag: git-7beda111 # v2.22.0 but with extra commits to fix ingress API
 app_pull_policy: "IfNotPresent"
 # A comma-separated list of URLs to send app release information to
 # See https://deis.com/docs/workflow/managing-workflow/deploy-hooks

@@ -8,4 +8,4 @@ maintainers:
 - name: Adam Meehan
   email: info@researchpath.com.au
 name: registry-token-refresher
-version: v1.2.2
+version: v1.2.3

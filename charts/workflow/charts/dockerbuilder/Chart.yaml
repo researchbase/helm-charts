@@ -6,4 +6,4 @@ maintainers:
 - name: Adam Meehan
   email: info@researchpath.com.au
 name: dockerbuilder
-version: v2.8.3
+version: v2.8.4
