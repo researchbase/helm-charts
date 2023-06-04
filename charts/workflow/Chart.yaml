@@ -14,7 +14,7 @@ dependencies:
   - name: dockerbuilder
     version: "v2.8.4"
   - name: controller
-    version: "v2.22.1"
+    version: "v2.22.2"
   - name: slugrunner
     version: "v2.7.1"
   - name: database
