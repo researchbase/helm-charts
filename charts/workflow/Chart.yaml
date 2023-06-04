@@ -5,7 +5,7 @@ maintainers:
 - name: Adam Meehan
   email: info@researchpath.com.au
 name: workflow
-version: v2.23.1
+version: v2.23.2
 dependencies:
   - name: builder
     version: "v2.13.8"
