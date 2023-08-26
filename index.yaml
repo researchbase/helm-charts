@@ -2,7 +2,71 @@ apiVersion: v1
 entries:
   workflow:
   - apiVersion: v2
-    created: "2023-06-05T07:23:10.59617+10:00"
+    created: "2023-08-27T08:40:58.142231+10:00"
+    dependencies:
+    - name: builder
+      repository: ""
+      version: v2.13.8
+    - name: slugbuilder
+      repository: ""
+      version: v2.8.1
+    - name: dockerbuilder
+      repository: ""
+      version: v2.8.4
+    - name: controller
+      repository: ""
+      version: v2.22.2
+    - name: slugrunner
+      repository: ""
+      version: v2.7.1
+    - name: database
+      repository: ""
+      version: v2.7.7
+    - name: fluentd
+      repository: ""
+      version: v2.15.3
+    - name: redis
+      repository: ""
+      version: v2.4.3
+    - name: logger
+      repository: ""
+      version: v2.5.2
+    - name: minio
+      repository: ""
+      version: v2.4.6
+    - name: monitor
+      repository: ""
+      version: v2.11.3
+    - name: nsqd
+      repository: ""
+      version: v2.5.2
+    - name: registry
+      repository: ""
+      version: v2.6.2
+    - name: registry-proxy
+      repository: ""
+      version: v1.5.2
+    - name: registry-token-refresher
+      repository: ""
+      version: v1.2.3
+    - name: router
+      repository: ""
+      version: v2.19.1
+    - name: workflow-manager
+      repository: ""
+      version: v2.6.3
+    description: Hephy Workflow
+    digest: 6cfb2d465ac9a5e5cd120b005add13f0d223ad34229b6157d40ef14ad2852c20
+    home: https://github.com/researchbase/helm-charts
+    maintainers:
+    - email: info@researchpath.com.au
+      name: Adam Meehan
+    name: workflow
+    urls:
+    - https://researchbase.github.io/helm-charts/workflow-v2.23.3.tgz
+    version: v2.23.3
+  - apiVersion: v2
+    created: "2023-08-27T08:40:58.139141+10:00"
     dependencies:
     - name: builder
       repository: ""
@@ -66,7 +130,7 @@ entries:
     - https://researchbase.github.io/helm-charts/workflow-v2.23.2.tgz
     version: v2.23.2
   - apiVersion: v2
-    created: "2023-06-05T07:23:10.593571+10:00"
+    created: "2023-08-27T08:40:58.135949+10:00"
     dependencies:
     - name: builder
       repository: ""
@@ -129,4 +193,4 @@ entries:
     urls:
     - https://researchbase.github.io/helm-charts/workflow-v2.23.1.tgz
     version: v2.23.1
-generated: "2023-06-05T07:23:10.587663+10:00"
+generated: "2023-08-27T08:40:58.127046+10:00"
