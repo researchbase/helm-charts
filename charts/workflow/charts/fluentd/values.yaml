@@ -27,7 +27,7 @@ boot:
 # Any custom fluentd environment variables (https://github.com/teamhephy/fluentd#configuration)
 # can be specified as key-value pairs under daemon_environment.
 daemon_environment:
-  CONTAINER_TAIL_PARSER_TYPE: json
+  CONTAINER_TAIL_PARSER_TYPE: /^(?<time>.+) (?<stream>stdout|stderr)( (?<tags>.))? (?<log>.*)$/
 
 nsqd:
   replicas: 1
